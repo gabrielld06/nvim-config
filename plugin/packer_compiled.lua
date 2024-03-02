@@ -149,6 +149,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\gabri\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "C:\\Users\\gabri\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\gabri\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
@@ -175,10 +180,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\gabri\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
+  ["split-term.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\gabri\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\split-term.vim",
+    url = "https://github.com/vimlab/split-term.vim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "C:\\Users\\gabri\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["trouble.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\gabri\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\trouble.nvim",
+    url = "https://github.com/folke/trouble.nvim"
   },
   undotree = {
     loaded = true,

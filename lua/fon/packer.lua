@@ -57,4 +57,15 @@ return require('packer').startup(function(use)
         run = "yarn install --frozen-lockfile --production",
     }
 
+    use {
+        "vimlab/split-term.vim",
+    }
+
+    use {
+        "folke/trouble.nvim",
+        requires = {
+            {"nvim-tree/nvim-web-devicons" },
+        }
+    }
+
 end)
