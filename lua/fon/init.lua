@@ -6,7 +6,7 @@ require("presence").setup({
     -- General options
     auto_update         = true,                       -- Update activity based on autocmd events (if `false`, map or manually execute `:lua package.loaded.presence:update()`)
     main_image          = "neovim",                   -- Main image display (either "neovim" or "file")
-    -- debounce_timeout    = 10,                         -- Number of seconds to debounce events (or calls to `:lua package.loaded.presence:update(<filename>, true)`)
+    debounce_timeout    = 10,                         -- Number of seconds to debounce events (or calls to `:lua package.loaded.presence:update(<filename>, true)`)
     show_time           = true,                       -- Show the timer
 
     -- Rich Presence text options

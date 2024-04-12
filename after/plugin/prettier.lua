@@ -1,4 +1,4 @@
 -- Configure vim-prettier
-vim.g["prettier#autoformat"] = 1
-vim.g["prettier#autoformat_require_pragma"] = 0
-vim.g["prettier#autoformat_config_file"] = "~/.prettierrc"
+-- vim.g["prettier#autoformat"] = 1
+-- vim.g["prettier#autoformat_require_pragma"] = 0
+-- vim.g["prettier#autoformat_config_file"] = "~/.prettierrc"

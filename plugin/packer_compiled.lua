@@ -200,15 +200,15 @@ _G.packer_plugins = {
     path = "C:\\Users\\gabri\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-abolish"] = {
+    loaded = true,
+    path = "C:\\Users\\gabri\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-abolish",
+    url = "https://github.com/tpope/vim-abolish"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "C:\\Users\\gabri\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
-  },
-  ["vim-prettier"] = {
-    loaded = true,
-    path = "C:\\Users\\gabri\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-prettier",
-    url = "https://github.com/prettier/vim-prettier"
   }
 }
 
