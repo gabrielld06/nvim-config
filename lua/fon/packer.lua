@@ -63,4 +63,12 @@ return require('packer').startup(function(use)
             { "nvim-tree/nvim-web-devicons" },
         }
     }
+
+    use {
+        "olexsmir/gopher.nvim",
+        requires = { -- dependencies
+            "nvim-lua/plenary.nvim",
+            "nvim-treesitter/nvim-treesitter",
+        },
+    }
 end)
