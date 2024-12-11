@@ -50,12 +50,13 @@ return require('packer').startup(function(use)
         }
     }
 
-    use("github/copilot.vim")
-    use("andweeb/presence.nvim")
-
     use {
         "vimlab/split-term.vim",
     }
+
+    use { "akinsho/toggleterm.nvim", tag = '*', config = function()
+        require("toggleterm").setup()
+    end }
 
     use {
         "folke/trouble.nvim",
@@ -70,5 +71,9 @@ return require('packer').startup(function(use)
             "nvim-lua/plenary.nvim",
             "nvim-treesitter/nvim-treesitter",
         },
+    }
+
+    use {
+        "lvimuser/lsp-inlayhints.nvim",
     }
 end)

@@ -3,22 +3,56 @@ local lsp = require('lsp-zero')
 lsp.preset("recommended")
 
 require('mason').setup({})
+
 require('mason-lspconfig').setup({
     ensure_installed = {
-        'tsserver',
+        'ts_ls',
         'eslint',
         'lua_ls',
         'rust_analyzer',
-        'golangci_lint_ls',
+        --'golangci_lint_ls',
         'gopls',
         'html',
-        'tailwindcss',
+        --       'tailwindcss',
     },
     handlers = {
         lsp.default_setup,
         lua_ls = function()
             local lua_opts = lsp.nvim_lua_ls()
             require('lspconfig').lua_ls.setup(lua_opts)
+        end,
+        ts_ls = function()
+            local capabilities = require("cmp_nvim_lsp").default_capabilities()
+            require('lspconfig').ts_ls.setup({
+                capabilities = capabilities,
+            })
+        end,
+        eslint = function()
+            require('lspconfig').eslint.setup({
+                settings = {
+                    rules = {
+                        ['prettier'] = 'off',
+                        ['prettier/prettier'] = 'off',
+                    },
+                },
+            })
+        end,
+        gopls = function()
+            require('lspconfig').gopls.setup({
+                settings = {
+                    gopls = {
+                        hints = {
+                            assignVariableTypes = true,
+                            compositeLiteralFields = true,
+                            compositeLiteralTypes = true,
+                            constantValues = true,
+                            functionTypeParameters = true,
+                            parameterNames = true,
+                            rangeVariableTypes = true,
+                        },
+                    },
+                },
+            })
         end,
     },
 })
