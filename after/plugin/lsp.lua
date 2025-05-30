@@ -21,7 +21,7 @@ require('mason-lspconfig').setup({
             local lua_opts = lsp.nvim_lua_ls()
             require('lspconfig').lua_ls.setup(lua_opts)
         end,
-        ts_ls = function()
+        ts_ls  = function()
             local capabilities = require("cmp_nvim_lsp").default_capabilities()
             require('lspconfig').ts_ls.setup({
                 capabilities = capabilities,
@@ -37,7 +37,7 @@ require('mason-lspconfig').setup({
                 },
             })
         end,
-        gopls = function()
+        gopls  = function()
             require('lspconfig').gopls.setup({
                 settings = {
                     gopls = {

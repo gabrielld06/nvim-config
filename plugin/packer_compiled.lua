@@ -104,6 +104,17 @@ _G.packer_plugins = {
     path = "/home/gabrielld06/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/gabrielld06/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
+  ["cord.nvim"] = {
+    config = { "\27LJ\2\nG\0\2\b\0\2\0\r6\2\0\0009\2\1\2\18\4\0\0\18\5\1\0)\6\1\0+\a\2\0B\2\5\2\v\2\0\0X\2\2€+\2\1\0X\3\1€+\2\2\0L\2\2\0\tfind\vstring\\\0\1\n\2\2\0\0166\1\0\0-\3\0\0B\1\2\4X\4\b€-\6\1\0009\b\1\0\18\t\5\0B\6\3\2\15\0\6\0X\a\2€+\6\2\0L\6\2\0E\4\3\3R\4ö\127+\1\1\0L\1\2\0\1À\0À\14workspace\vipairsV\0\1\4\1\3\0\v-\1\0\0\18\3\0\0B\1\2\2\15\0\1\0X\2\2€'\1\0\0X\2\3€'\1\1\0009\2\2\0&\1\2\1L\1\2\0\2À\rfilename\rViewing \19Viewing a fileV\0\1\4\1\3\0\v-\1\0\0\18\3\0\0B\1\2\2\15\0\1\0X\2\2€'\1\0\0X\2\3€'\1\1\0009\2\2\0&\1\2\1L\1\2\0\2À\rfilename\rEditing \19Editing a fileS\0\1\4\1\3\0\v-\1\0\0\18\3\0\0B\1\2\2\15\0\1\0X\2\2€'\1\0\0X\2\3€'\1\1\0009\2\2\0&\1\2\1L\1\2\0\2À\14workspace\16Working on \fWorkingÍ\6\1\0\t\0\29\0!3\0\0\0005\1\1\0003\2\2\0005\3\3\0006\4\4\0'\6\5\0B\4\2\0029\4\6\0045\6\b\0005\a\a\0=\a\t\0065\a\n\0=\3\v\a=\3\f\a=\3\r\a=\3\14\a=\3\15\a=\3\16\a=\3\17\a=\3\18\a=\3\19\a=\a\20\0065\a\22\0003\b\21\0=\b\23\a3\b\24\0=\b\25\a3\b\26\0=\b\27\a=\a\28\6B\4\2\0012\0\0€K\0\1\0\ttext\14workspace\0\fediting\0\fviewing\1\0\3\14workspace\0\fviewing\0\fediting\0\0\vassets\18.interface.ts\14.model.ts\20.interceptor.ts\14.guard.ts\r.pipe.ts\18.directive.ts\16.service.ts\18.component.ts\15.module.ts\1\0\t\r.pipe.ts\0\14.guard.ts\0\20.interceptor.ts\0\14.model.ts\0\18.interface.ts\0\15.module.ts\0\18.component.ts\0\16.service.ts\0\18.directive.ts\0\tidle\1\0\3\ttext\0\vassets\0\tidle\0\1\0\t\17ignore_focus\2\ftimeout\3€ÝÛ\1\fdetails\vIdling\20unidle_on_focus\2\15smart_idle\2\16show_status\2\ftooltip\tðŸ˜´\ticonChttps://media.tenor.com/GOEO_QhhtlYAAAAM/go-to-sleep-anime.gif\fenabled\2\nsetup\tcord\frequire\1\0\3\ticonhhttps://raw.githubusercontent.com/vyfor/icons/refs/heads/master/icons/default/accent/typescript.png\tname\15typescript\ftooltip\15Typescript\0\1\3\0\0\26blacklisted_workspace\nenliv\0\0" },
+    loaded = true,
+    path = "/home/gabrielld06/.local/share/nvim/site/pack/packer/start/cord.nvim",
+    url = "https://github.com/vyfor/cord.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/gabrielld06/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -118,6 +129,26 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gabrielld06/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
+  },
+  kanagawa = {
+    config = {
+      options = {
+        dimInactive = true,
+        styles = {
+          comments = "italic",
+          functions = "italic,bold",
+          keywords = "bold",
+          sidebars = "transparent",
+          variables = "NONE"
+        },
+        terminalColors = true,
+        theme = "dragon",
+        transparent = true
+      }
+    },
+    loaded = true,
+    path = "/home/gabrielld06/.local/share/nvim/site/pack/packer/start/kanagawa",
+    url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["lsp-inlayhints.nvim"] = {
     loaded = true,
@@ -143,6 +174,24 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gabrielld06/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  nightfox = {
+    config = {
+      options = {
+        styles = {
+          comments = "italic",
+          functions = "italic,bold",
+          keywords = "bold",
+          sidebars = "transparent",
+          variables = "NONE"
+        },
+        terminal_colors = true,
+        transparent = true
+      }
+    },
+    loaded = true,
+    path = "/home/gabrielld06/.local/share/nvim/site/pack/packer/start/nightfox",
+    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -224,14 +273,24 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: toggleterm.nvim
-time([[Config for toggleterm.nvim]], true)
-try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
-time([[Config for toggleterm.nvim]], false)
+-- Config for: cord.nvim
+time([[Config for cord.nvim]], true)
+try_loadstring("\27LJ\2\nG\0\2\b\0\2\0\r6\2\0\0009\2\1\2\18\4\0\0\18\5\1\0)\6\1\0+\a\2\0B\2\5\2\v\2\0\0X\2\2€+\2\1\0X\3\1€+\2\2\0L\2\2\0\tfind\vstring\\\0\1\n\2\2\0\0166\1\0\0-\3\0\0B\1\2\4X\4\b€-\6\1\0009\b\1\0\18\t\5\0B\6\3\2\15\0\6\0X\a\2€+\6\2\0L\6\2\0E\4\3\3R\4ö\127+\1\1\0L\1\2\0\1À\0À\14workspace\vipairsV\0\1\4\1\3\0\v-\1\0\0\18\3\0\0B\1\2\2\15\0\1\0X\2\2€'\1\0\0X\2\3€'\1\1\0009\2\2\0&\1\2\1L\1\2\0\2À\rfilename\rViewing \19Viewing a fileV\0\1\4\1\3\0\v-\1\0\0\18\3\0\0B\1\2\2\15\0\1\0X\2\2€'\1\0\0X\2\3€'\1\1\0009\2\2\0&\1\2\1L\1\2\0\2À\rfilename\rEditing \19Editing a fileS\0\1\4\1\3\0\v-\1\0\0\18\3\0\0B\1\2\2\15\0\1\0X\2\2€'\1\0\0X\2\3€'\1\1\0009\2\2\0&\1\2\1L\1\2\0\2À\14workspace\16Working on \fWorkingÍ\6\1\0\t\0\29\0!3\0\0\0005\1\1\0003\2\2\0005\3\3\0006\4\4\0'\6\5\0B\4\2\0029\4\6\0045\6\b\0005\a\a\0=\a\t\0065\a\n\0=\3\v\a=\3\f\a=\3\r\a=\3\14\a=\3\15\a=\3\16\a=\3\17\a=\3\18\a=\3\19\a=\a\20\0065\a\22\0003\b\21\0=\b\23\a3\b\24\0=\b\25\a3\b\26\0=\b\27\a=\a\28\6B\4\2\0012\0\0€K\0\1\0\ttext\14workspace\0\fediting\0\fviewing\1\0\3\14workspace\0\fviewing\0\fediting\0\0\vassets\18.interface.ts\14.model.ts\20.interceptor.ts\14.guard.ts\r.pipe.ts\18.directive.ts\16.service.ts\18.component.ts\15.module.ts\1\0\t\r.pipe.ts\0\14.guard.ts\0\20.interceptor.ts\0\14.model.ts\0\18.interface.ts\0\15.module.ts\0\18.component.ts\0\16.service.ts\0\18.directive.ts\0\tidle\1\0\3\ttext\0\vassets\0\tidle\0\1\0\t\17ignore_focus\2\ftimeout\3€ÝÛ\1\fdetails\vIdling\20unidle_on_focus\2\15smart_idle\2\16show_status\2\ftooltip\tðŸ˜´\ticonChttps://media.tenor.com/GOEO_QhhtlYAAAAM/go-to-sleep-anime.gif\fenabled\2\nsetup\tcord\frequire\1\0\3\ticonhhttps://raw.githubusercontent.com/vyfor/icons/refs/heads/master/icons/default/accent/typescript.png\tname\15typescript\ftooltip\15Typescript\0\1\3\0\0\26blacklisted_workspace\nenliv\0\0", "config", "cord.nvim")
+time([[Config for cord.nvim]], false)
+-- Config for: kanagawa
+time([[Config for kanagawa]], true)
+time([[Config for kanagawa]], false)
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
 time([[Config for rose-pine]], false)
+-- Config for: nightfox
+time([[Config for nightfox]], true)
+time([[Config for nightfox]], false)
+-- Config for: toggleterm.nvim
+time([[Config for toggleterm.nvim]], true)
+try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
+time([[Config for toggleterm.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

@@ -10,6 +10,15 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
+vim.api.nvim_create_autocmd("FileType", {
+    pattern = "netrw",
+    callback = function()
+        vim.keymap.set("n", "<S-Up>", "<Up>", { buffer = true, silent = true })
+        vim.keymap.set("n", "<S-Down>", "<Down>", { buffer = true, silent = true })
+        vim.keymap.set("n", "<leader>q", ":NetrwBrowseUp<CR>", { buffer = true, silent = true })
+    end,
+})
+
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])
 vim.keymap.set("x", "<leader>P", [["_dp]])

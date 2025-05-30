@@ -1,0 +1,30 @@
+-- local blacklist = {
+--     'blacklisted_workspace',
+--     'enliv'
+-- }
+--
+-- local is_blacklisted = function(opts)
+--     return vim.tbl_contains(blacklist, opts.workspace)
+-- end
+--
+-- require('cord').setup {
+--     idle = {
+--         enable = false,
+--         show_status = false,
+--     },
+--     icons = {
+--         angular = 'typescript'
+--     },
+--     text = {
+--         viewing = function(opts)
+--             return is_blacklisted(opts) and 'Viewing a file' or ('Viewing ' .. opts.filename)
+--         end,
+--         editing = function(opts)
+--             return is_blacklisted(opts) and 'Editing a file' or ('Editing ' .. opts.filename)
+--         end,
+--         workspace = function(opts)
+--             return is_blacklisted(opts) and 'In a secret workspace' or ('Working on ' .. opts.workspace)
+--         end
+--     }
+-- }
+
